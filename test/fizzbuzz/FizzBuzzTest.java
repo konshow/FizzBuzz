@@ -6,9 +6,12 @@ import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
 
+    FizzBuzz fizzBuzz = new FizzBuzz();
+
     @Test
-    public void input_1_should_be_say_1(){
-        FizzBuzz fizzBuzz = new FizzBuzz();
+    public void say_same_input(){
         assertEquals("1", fizzBuzz.say(1));
+        assertEquals("2", fizzBuzz.say(2));
     }
+
 }
