@@ -15,8 +15,8 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void input_3_should_be_say_fizz(){
+    public void say_fizz() {
         assertEquals("Fizz", fizzBuzz.say(3));
+        assertEquals("Fizz", fizzBuzz.say(6));
     }
-
 }
