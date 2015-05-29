@@ -19,4 +19,11 @@ public class FizzBuzzTest {
         assertEquals("Fizz", fizzBuzz.say(3));
         assertEquals("Fizz", fizzBuzz.say(6));
     }
+
+    @Test
+    public void say_buzz() {
+        assertEquals("Buzz", fizzBuzz.say(5));
+        assertEquals("Buzz", fizzBuzz.say(10));
+    }
+
 }
